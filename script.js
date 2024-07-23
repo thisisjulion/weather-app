@@ -1,6 +1,6 @@
 document.getElementById('getWeatherBtn').addEventListener('click', function() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = '0cf8375d75893724e1548cf129d2bfd8';
+    const apiKey = '';
     const getWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     const weatherResult = document.getElementById('weatherResult');
     const loadingSpinner = document.getElementById('loadingSpinner');
